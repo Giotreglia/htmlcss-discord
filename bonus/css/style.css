@@ -55,10 +55,17 @@ header {
 }
 
 .menu_list a {
-    text-decoration: none;
     margin: 0px 15px;
+}
+
+.menu_list a, .footer_column a {
+    text-decoration: none;
     color: white;
     font-weight: bold;
+}
+
+.footer_column a:hover {
+    text-decoration: underline;
 }
 
 .header_bottom {
