@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.flex {
+    display: flex;
+}
+
+.auto {
+    max-width: 1170px;
+    margin: auto;
+}
+
+header {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header_top {
+    padding: 10px 0px;
+    background-color: rgb(37, 94, 233);
+    height: 50px;
+}
+
+.nav {
+    color: white;
+}
+
+.menu {
+    width: 1170px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_list {
+    list-style: none;
+}
+
+.logo, .login {
+    width: 20%;
+}
+
+.login {
+    text-align: right;
+    line-height: 30px;
+}
+
+.menu_list a {
+    text-decoration: none;
+    margin: 0px 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.header_bottom {
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0px;
+}
+
+.header_bottom_container {
+    width: 45%;
+    height: 100%;
+}
+
+.btn_small {
+    padding: 4px 8px;
+    border-radius: 12px;
+    border: none;
+    text-decoration: none;
+}
+
+.btn_big {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 15px;
+    text-decoration: none;
+    margin: 0px 5px;
+}
+     
+.btn_bianco {
+    background-color: white;
+    color: black;
+}
+
+.btn_nero {
+    background-color:black;
+    color: white;
+}
+
+.btn_viola {
+    background-color:rgb(114, 137, 218);
+    color: white;
+}
+
+.login a {
+    font-size: 10px;
+}
+
+.section_container {
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+    margin: 50px 0px;
+}
+
+.section_right, .section_left {
+    height: 100%;
+    width: 1170px;
+    margin: auto;
+}
+
+.section_text {
+    width: 40%;
+    height: 100%;
+    padding-top: 40px;
+}
+
+.grey {
+    background-color: rgb(246, 246, 246);
+    margin: -2px 0 0px;
+}
+
+#waves {
+    opacity: 0.04;
+    margin-bottom: 0;
+}
+
+#wavesdown {
+    opacity: 0.04;
+    margin-bottom: 0;
+    transform: rotate(180deg);
+}
+
+.section_container_last {
+    background-color: rgb(246, 246, 246);
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.last_section {
+    text-align: center;
+    height: 100%;
+    padding: 50px 0px;
+    margin: 50px 0px;
+}
+
+.footer_top_container {
+    justify-content: center;
+    padding: 20px 0px 0px;
+    background-color: rgb(41, 40, 40);
+}
+
+.footer_top {
+    height: 100%;
+    border-bottom: solid 1px rgb(114, 137, 218);
+    width: 1170px;
+    margin: 20px auto 0px;
+    padding-bottom: 20px;
+}
+
+.big_footer_column {
+    width: 25%;
+}
+
+.footer_column {
+    width: calc(75% / 4);
+}
+
+.footer_bottom_container {
+    background-color: rgb(41, 40, 40) ;
+    padding: 10px 0px 30px;
+    justify-content: center;
+}
+
+.footer_bottom {
+    height: 100%;
+    width: 1170px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_bottom_container {
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+
+#titolo_headerbottom, #titolo_section {
+    font-size: 45px;
+}
+
+#testo_headerbottom, #testo_section {
+    font-size: 20px;
+    margin: 40px 0px 10px;
+    line-height: 30px;
+}
+
+.btn_scarica, .btn_apri {
+    padding: 10;
+}
+
+.section_image_container {
+    width: 60%;
+    height: 100%;
+}
+
+.section_image {
+    width: 100%;
+}
+
+#testoconstelline {
+    font-weight: bold;
+    background-position: center;
+    font-size: 25px;
+    background-image: url("../img/stars.svg");
+    line-height:50px;
+    padding: 0px 60px;
+    margin-bottom: 20px;
+}
+
+.footer_top_container ul {
+    list-style: none;
+    color: white;
+}
+
+.footer_top li {
+    margin: 10px;
+}
+
+.list_title_big {
+    color: rgb(114, 137, 218);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.list_title {
+    color: rgb(114, 137, 218);
+    font-size: 12px;
+}
+
+li img {
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+li i {
+    margin: 0px 10px;
+}
+
+li i:first-child {
+    margin-left: 0;
+}
+
+#lingua {
+    line-height: 15px;
+}
