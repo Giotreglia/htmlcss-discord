@@ -72,6 +72,23 @@ header {
     height: 100%;
 }
 
+.btn_small:hover, .btn_big:hover {
+    box-shadow: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn_bianco:hover {
+    color: rgb(37, 94, 233);
+}
+
+.btn_nero:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+.btn_viola:hover {
+    background-color: rgb(134, 157, 238);
+}
+
 .btn_small {
     padding: 4px 8px;
     border-radius: 12px;
