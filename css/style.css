@@ -72,7 +72,7 @@ main .section_container:nth-child(even) {
     height: 100%;
     border-bottom: solid 1px rgb(114, 137, 218);
     width: 1170px;
-    margin: 20px auto;
+    margin: 20px auto 0px;
     padding-bottom: 20px;
 }
 
@@ -86,15 +86,13 @@ main .section_container:nth-child(even) {
 
 .debug .footer_bottom_container {
     background-color: rgb(41, 40, 40) ;
-    height: 60px;
-    padding: 20px 0px 0px;
+    padding: 10px 0px 30px;
     justify-content: center;
 }
 
 .debug .footer_bottom {
     height: 100%;
-    width: 60%;
-    background-color: aquamarine;
+    width: 1170px;
     justify-content: space-between;
     align-items: center;
 }
@@ -209,6 +207,16 @@ header {
     border: none;
     border-radius: 12px;
     background-color:black;
+    color: white;
+    text-decoration: none;
+    margin: 0px 5px;
+}
+
+.btn_viola_small {
+    padding: 4px 8px;
+    border: none;
+    border-radius: 12px;
+    background-color:rgb(114, 137, 218);
     color: white;
     text-decoration: none;
     margin: 0px 5px;
