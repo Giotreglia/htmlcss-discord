@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Debug */
+
+/* .debug .header_top {
+    height: 50px;
+    background-color: rgb(37, 94, 233);
+} */
+
+/* .debug .header_bottom {
+    height: 650px;
+} */
+
+/* .debug .nav_container {
+    height: 100%;
+} */
+
+/* .debug .header_bottom_container {
+    background-color: gold;
+} */
+
+.debug .section_container {
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.debug .section_right, .debug .section_left {
+    height: 100%;
+    width: 1170px;
+    margin: auto;
+}
+
+.debug .section_image {
+    background-color: navy;
+    width: 60%;
+    height: 100%;
+    border: dashed 1px black;
+}
+
+.debug .section_text {
+    background-color: pink;
+    width: 40%;
+    height: 100%;
+    border: dashed 1px black;
+}
+
+main .section_container:nth-child(even) {
+    background-color: lightgrey;
+}
+
+.debug .section_container_last {
+    height: 500px;
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.debug .last_section {
+    height: 100%;
+    background-color: gold;
+    width: 60%;
+    border: dashed 1px black;
+}
+
+.debug .footer_top_container {
+    height: 350px;
+    justify-content: center;
+    padding: 5px 0px 15px;
+    background-color: rgb(41, 40, 40);
+    border-bottom: solid 1px white;
+}
+
+.debug .footer_top {
+    height: 100%;
+    width: 60%;
+}
+
+.debug .big_footer_column {
+    width: 25%;
+    background-color: pink;
+    border: dashed 1px black;
+}
+
+.debug .footer_column {
+    width: calc(75% / 4);
+    background-color: aquamarine;
+    border: dashed 1px black;
+}
+
+.debug .footer_bottom_container {
+    background-color: rgb(41, 40, 40) ;
+    height: 60px;
+    padding: 20px 0px 0px;
+    justify-content: center;
+}
+
+.debug .footer_bottom {
+    height: 100%;
+    width: 60%;
+    background-color: aquamarine;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.debug .footer_btn {
+    height: 20px;
+    background-color: pink;
+    border: dashed 1px black;
+    padding: 5px;
+    line-height: 11px;
+}
+
+
+/* debug */
+
+/* CSS */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+
+.flex {
+    display: flex;
+}
+
+.auto {
+    max-width: 1170px;
+    margin: auto;
+}
+
+header {
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header_top {
+    padding: 10px 0px;
+    background-color: rgb(37, 94, 233);
+    height: 50px;
+}
+
+.nav {
+    color: white;
+}
+
+/* .nav_container {
+    max-width: 60%;
+    margin: auto;
+} */
+.menu {
+    width: 1170px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_list {
+    list-style: none;
+}
+
+.logo, .login {
+    width: 20%;
+}
+
+.login {
+    text-align: right;
+    line-height: 30px;
+}
+
+.menu_list a {
+    text-decoration: none;
+    margin: 0px 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.header_bottom {
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0px;
+}
+
+.header_bottom_container {
+    width: 45%;
+    height: 100%;
+}
+
+.btn_bianco_small {
+    padding: 4px 8px;
+    border: none;
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+.btn_bianco_big {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    margin: 0px 20px;
+}
+
+.btn_nero_small {
+    padding: 4px 8px;
+    border: none;
+    border-radius: 12px;
+    background-color:black;
+    color: white;
+    text-decoration: none;
+    margin: 0px 5px;
+}
+
+.btn_nero_big {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 15px;
+    background-color:black;
+    color: white;
+    text-decoration: none;
+    margin: 0px 5px;
+}
+
+.login a {
+    font-size: 10px;
+}
+
+.header_bottom_container {
+    color: white;
+    text-align: center;
+    width: 50%;
+}
+
+#titolo_headerbottom {
+    font-size: 45px;
+}
+
+#testo_headerbottom {
+    font-size: 20px;
+    margin: 40px 0px 10px;
+    line-height: 40px;
+}
+
+.btn_scarica, .btn_apri {
+    padding: 10;
+}
+
+#freccia_down {
+    font-weight: bolder;
+}
+
