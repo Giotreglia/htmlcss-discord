@@ -63,28 +63,25 @@ main .section_container:nth-child(even) {
 }
 
 .debug .footer_top_container {
-    height: 350px;
     justify-content: center;
-    padding: 5px 0px 15px;
+    padding: 20px 0px 0px;
     background-color: rgb(41, 40, 40);
-    border-bottom: solid 1px white;
 }
 
 .debug .footer_top {
     height: 100%;
-    width: 60%;
+    border-bottom: solid 1px rgb(114, 137, 218);
+    width: 1170px;
+    margin: 20px auto;
+    padding-bottom: 20px;
 }
 
 .debug .big_footer_column {
     width: 25%;
-    background-color: pink;
-    border: dashed 1px black;
 }
 
 .debug .footer_column {
     width: calc(75% / 4);
-    background-color: aquamarine;
-    border: dashed 1px black;
 }
 
 .debug .footer_bottom_container {
@@ -278,4 +275,42 @@ header {
     line-height:50px;
     padding: 0px 60px;
     margin-bottom: 20px;
+}
+
+.footer_top_container ul {
+    list-style: none;
+    color: white;
+}
+
+.footer_top li {
+    margin: 10px;
+}
+
+.list_title_big {
+    color: rgb(114, 137, 218);
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.list_title {
+    color: rgb(114, 137, 218);
+    font-size: 12px;
+}
+
+li img {
+    height: 15px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+li i {
+    margin: 0px 10px;
+}
+
+li i:first-child {
+    margin-left: 0;
+}
+
+#lingua {
+    line-height: 15px;
 }
