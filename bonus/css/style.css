@@ -64,7 +64,7 @@ header {
     font-weight: bold;
 }
 
-.footer_column a:hover {
+.footer_column a:hover, .menu_list a:hover {
     text-decoration: underline;
 }
 
@@ -289,4 +289,32 @@ li i:first-child {
 
 #lingua {
     line-height: 15px;
+}
+
+/* Pagina 2 Nitro*/
+
+#header_nitro {
+    background-image: url("../img/nitro.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header_top_nitro {
+    padding: 10px 0px;
+    background-color: rgb(178, 123, 239);
+    height: 50px;
+}
+
+#nitro_img {
+    height: 400px;
+}
+
+.colsx {
+    width: 30%;
+    text-align: left;
+}
+
+.coldx {
+
 }
