@@ -6,8 +6,8 @@ LOGO
 -->
 
 <p>
-  <img src="img\logo.svg" alt="LOGO"/>
   <h1>Replica Discord</h1>
+  <img src="img\logo.svg" alt="LOGO"/>
 </p>
 
 <!---
