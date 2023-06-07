@@ -5,7 +5,7 @@
 LOGO
 -->
 
-<p align="center">
+<p>
   <img src="img\logo.svg" alt="LOGO"/>
   <h1>Replica Discord</h1>
 </p>
@@ -28,7 +28,7 @@ Syntax: <a href="website"><img src="https://img.shields.io/badge/-LABEL-COLORHEX
     <a href="https://vitejs.dev/"><img src="https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white" alt="ViteJS"></a>
 </p>
 
-Boolflix è una riproduzione in piccolo della più celebre webapp di Netflix che utilizza le API di <a href="https://developer.themoviedb.org/docs">The Movie DB</a>.
+Con questo esercizio ho voluto riprodurre utilizzando i linguaggi HTML e CSS la front page del sito istituzionale di <a href="https://discord.com/">Discord</a>.
 
 <h1>Linguaggi utilizzati</h1>
 <ul>
